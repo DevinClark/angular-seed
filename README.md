@@ -59,7 +59,7 @@ to use whatever works for you.
 Requires [node.js](http://nodejs.org/), Karma (`sudo npm install -g karma`) and a local
 or remote browser.
 
-* start `scripts/test.sh` (on windows: `scripts\test.bat`)
+* start `scripts/test.sh`  
   * a browser will start and connect to the Karma server (Chrome is default browser, others can be captured by loading the same url as the one in Chrome or by changing the `config/karma.conf.js` file)
 * to run or re-run tests just change any of your source or test javascript files
 
@@ -112,11 +112,6 @@ fetch the changes and merge them into your project with git.
         filters.js      --> custom angular filters
         services.js     --> custom angular services
       lib/              --> angular and 3rd party javascript libraries
-        angular/
-          angular.js        --> the latest angular js
-          angular.min.js    --> the latest minified angular js
-          angular-*.js      --> angular add-on modules
-          version.txt       --> version number
       partials/             --> angular view partials (partial html templates)
         partial1.html
         partial2.html
