@@ -1,0 +1,11 @@
+{
+  "name": "angular-seed",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular-loader": "~1.0.7",
+    "angular-sanitize": "~1.0.7",
+    "angular": "~1.0.7",
+    "angular-cookies": "~1.0.7",
+    "angular-resource": "~1.0.7"
+  }
+}
