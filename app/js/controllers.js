@@ -5,7 +5,8 @@
  * 
  */
 
-angular.module('myApp.controllers', []).
-	controller('MyCtrl1', [function() {
+var myAppControllers = angular.module('myApp.controllers', []);
 
-	}]);
+myAppControllers.controller('MyCtrl1', [function() {
+
+}]);
